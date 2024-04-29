@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'committee/version'
 
 Gem::Specification.new do |s|
-  s.name          = "committee"
+  s.name          = "committee_firetail"
   s.version       = Committee::VERSION
 
   s.summary       = "A collection of Rack middleware to support JSON Schema."
